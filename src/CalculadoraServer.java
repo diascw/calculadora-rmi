@@ -10,7 +10,7 @@ public class CalculadoraServer {
 
             Naming.rebind("rmi://localhost:1099/CalculadoraService", calculadora);
 
-            System.out.println("servidor RMI pronto e aguardando conexões...");
+            System.out.println("servidor RMI pronto e aguardando conexoes...");
         } catch (Exception e) {
             System.err.println("erro no servidor: " + e.getMessage());
             e.printStackTrace();
